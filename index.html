@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <style>
+  		@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap');
+
+	.main{
+		height: 99vh;
+		width: 100%;
+	}
+	span{
+		font-family: 'Bona Nova', serif;	
+	}
+	.header h1{
+		margin-top: 20px;
+		font-size: 70px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		gap: 5px;
+	}
+	.header h6{
+		font-size: 18px;
+		align-items: left;
+		display: flex;
+		justify-content: left;
+		margin-top: -90px;
+	}
+	body{
+		margin: 0;
+		padding: 0;
+		font-size: 16px;
+		/* line-height: 1.5; */
+		font-family: sans-serif;
+		background-color: #e7e7e7;
+	}
+	.header img{
+		height: 200px;
+		width: 200px;
+		display: flex;
+		align-items: center;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+	}
+	.bottomlinks ul{
+		/* list-style: none; */
+		padding: 0;
+	}
+	.news img,.sidebar img{
+		box-sizing: border-box;
+		width: 100%;
+	}
+	.articlecontent{
+		padding: 17px;
+	}
+	.article{
+		margin-bottom: 17px;
+		margin-left: 17px;
+		background-color:white;
+	}
+	.pins{
+		padding: 5px;
+		margin-left: 15px;
+		margin-bottom: 27px;
+		background-color:white;	
+	}
+	.footer{
+		background-color:rgba(0, 0, 0, 0.96);
+		color: white;
+	}
+	.footer .bottomlinks{
+		text-align: left;
+	}
+	.header{
+		background-color: white;
+		margin-bottom: 1px;
+	}
+	img{
+		width: 90%;
+	}
+	.container{
+		display: flex;
+	}
+	.header{
+		box-sizing: border-box;      
+		width:100%;
+		text-align: center;
+	}
+	.footer{
+		box-sizing: border-box;
+		width:100%;   
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;             
+	}
+	.news{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	@media screen and (max-width: 520px){
+		.container{
+			flex-direction: column;
+		}
+		
+	}
+	@media screen and (min-width: 521px) and (max-width: 830px){
+		.container{
+			flex-wrap: wrap;
+		}
+		.news{
+			box-sizing: border-box;
+			flex:3;                  
+			margin-right: 1px;
+		}
+		.sidebar{
+			box-sizing: border-box;
+			flex:1;
+		}
+	}
+	@media screen and (min-width: 831px){
+		.container{
+			flex-wrap: wrap;
+		}
+		.news{
+			box-sizing: border-box;
+			flex:3;                  
+			margin-right: 1px;
+		}
+		.sidebar{
+			box-sizing: border-box;
+			flex:1;
+		}
+		.big{
+			width: 100%
+		}
+		.medium{
+			flex: 2;                   
+		}
+		.small{
+			flex: 1;                  
+		}
+	}
+    </style>
+</head>
+<body>
+    <div class="container">
+		<div class="header">
+			<!-- <img src="newslogo.jpg" alt=""> -->
+			<h1>The <span>Indian</span> EXPRESS</h1>
+            <h6>Wednesday, Dec20, 2023</h6>
+		</div>
+		<div class="news">
+			<div class="article big">
+				<img src="biimg.jpeg">
+				<div class="articlecontent">
+				<h2>Sensex, Nifty hit new record highs on firm global trends, buying in Reliance</h2>
+				<p>Benchmark equity indices Sensex and Nifty scaled new lifetime high levels in intra-day trade on Tuesday before ending with gains on the back of buying in index major Reliance Industries and positive global cues.
+
+					The 30-share BSE Sensex climbed 122.10 points or 0.17 per cent to settle at 71,437.19. During the day, it jumped 308.62 points or 0.43 per cent to reach its all-time intra-day high of 71,623.71.
+					
+					The Nifty climbed 86.4 points or 0.40 per cent to hit its record peak of 21,505.05. It finally closed higher by 34.45 points or 0.16 per cent at 21,453.10.Among the Sensex firms, Nestle, NTPC, Reliance Industries, State Bank of India, ITC, Hindustan Unilever, Power Grid and Bajaj Finance were the major gainers.Wipro, Tata Consultancy Services, HCL Technologies, Tata Steel, Bajaj Finserv and Maruti were among the laggards.</p>
+				</div>
+			</div>
+			<div class="article medium" >
+				<img src="amaimg.avif">
+				<div class="articlecontent">
+				<h2>Amazon India signs deal with Indian Coast Guard</h2>
+				<p>Mumbai: E-commerce giant Amazon India on Wednesday signed an agreement with the Indian Coast Guard (ICG), under the Ministry of Defence, to provide ex-service personnel with work opportunities across the company.With this Memorandum of Understanding (MoU), Amazon India will collaborate with the ICG to help ex-servicemen from military backgrounds pursue their corporate careers through opportunities at Amazon or in other corporate roles, the company said in a statement. "Due to the deep appreciation of the wealth of experience and unique perspective of ex-service personnel, Amazon runs the Military Veterans Employment Programme globally.</p>
+				</div>
+			</div>
+			<div class="article medium">
+				<img src="fimg.webp">
+				<div class="articlecontent">
+				<h2>Watch: Pastry Chef Builds A Huge Chocolate Train; Internet Names Him 'Willy Wonka In Real Life'</h2>
+				<p>f you love trains as much as 'Sheldon Cooper' (from the OTT show 'Big Bang Theory') and are a die-hard fan of chocolate, then you will be amazed by this video of a vintage train being crafted out of chocolate. The man behind this incredible edible art is French-Swiss chef Amaury Guichon, who is quite popular on Instagram for making real-life-sized things and animals and whatnot... all from chocolate. What makes his work stand out is the clarity and accuracy that goes into his food-art, making every inch and angle perfect. He captures all the key highlights of the process, so you can literally watch it all building up in front of your eyes. In his latest video, the chef crafts a magnificent train from chocolate, capturing all the big and small details.</p>
+				</div>
+			</div>
+			<div class="article big">
+				<img src="vbimg.avif">
+				<div class="articlecontent">
+				<h2>Vande Bharat Express between Bengaluru - Coimbatore to be launched by end of December</h2>
+				<p>Timings and details yet to be announced for new Vande Bharat Express between Bengaluru and Coimbatore
+                    The stage is set for the much-awaited Vande Bharat Express between Bengaluru and Tamil Nadu’s Coimbatore. Bengaluru Central MP PC Mohan confirmed that the Vande Bharat Express between the two cities will be launched by the end of December. This will be the fourth Vande Bharat Express for Karnataka.PC Mohan said, “By December's end, Bengaluru is set to welcome its fourth Vande Bharat Express, linking to Coimbatore.” Currently there is only one express train between Bengaluru and Coimbatore. Uday Express is currently operating in the morning with a travel time of roughly 7 hours.
+
+                    If Vande Bharat Express is announced between these two cities, timings are going to play an important role as the semi high speed train will be an expensive affair for regular commuters. However, the timings and other details are yet to be announced.
+                    
+                    </p>
+				</div>
+			</div>
+			<div class="article small">
+				<img src="spimg.avif">
+				<div class="articlecontent">
+				<h2>Why chess Grandmaster-siblings Praggnanandhaa and Vaishali will limit the number of tournaments they play in before the Candidates tournament</h2>
+				<p>Multiple training camps with focus on each and every opponent. Two separate teams with seconds already identified to share all available information about the opponents. Limiting the number of tournaments they will feature in. All this is part of a meticulously planned programme for chess Grandmasters, the brother-sister duo of R Praggnanandhaa and R Vaishali to train for the Candidates event next year.</p>
+				</div>
+			</div>
+			<div class="article small">
+				<img src="heimg1.avif">
+				<div class="articlecontent">
+				<h2>Navigating the storm: Strategies for sustaining mental well-being in a high-paced work environment</h2>
+				<p> A fast-paced work environment can take a toll on mental health. Proactively embrace these tips and strategies to foster well-being.In the contemporary world of rapid technological advancements and ever-evolving industries, the workplace has become a bustling arena, often synonymous with deadlines, high expectations and relentless competition but as the demands of the professional realm intensify, so does the prevalence of anxiety among workers, costing them their mental health and well-being. It is high time we acknowledge the toll that a fast-paced work environment can take on mental health and proactively embrace strategies to foster well-being.</p>
+				</div>
+			</div>
+			<div class="article small">
+				<img src="edimg2.jpeg">
+				<div class="articlecontent">
+				<h2>JEE Mains 2024 preparation series: Here is all you need to know about the examination pattern of JEE mains 2024</h2>
+				<p>The JEE Main exam for 2024 will be held in two sessions – the first phase in January and another in April. This article looks at the examination pattern.The National Testing Agency has released the exam dates for the Joint Entrance Examination (JEE) mains 2024. As per the NTA notification, the JEE Main exam for 2024 will be held in two sessions – the first phase in January and another in April. While the first session of the NTA JEE Main is scheduled from January 24 to February 1, the second session 2, is set for April 1 to 15. Besides, the Syllabus has seen many changes from previous years, with the addition of a few more chapters.</p>
+				</div>
+			</div>
+			<div class="article big">
+				<img src="big.webp">
+				<div class="articlecontent">
+				<h2>India logs 614 new Covid cases, highest since May 21; 3 deaths in Kerala</h2>
+				<p>There has been an uptick in COVID-19 cases in some states in the country after the detection of the first case of Coronavirus sub-variant JN.1 in KeralaThere has been an uptick in Covid cases in some states in the country after the detection of the first case of Coronavirus sub-variant JN.1 in Kerala. Insacog, the central government forum of labs, found 19 sequences of BA.2.86 descendant JN.1 - one from Maharashtra and 18 from Goa.</p>
+				</div>
+			</div>
+			
+		</div>
+		<div class="sidebar">
+			
+			<div class="pins">
+				<h2>India</h2>
+				<img src="isimg1.jpg">
+				<p>Payload onboard Aditya-L1 captures full-disk images of the Sun</p>
+			</div>
+			<div class="pins">
+				<h2>Cricket</h2>
+				<img src="crimg1.avif">
+				<p>Punjab Kings clarify Shashank Singh mistaken identity case amid auction blunder</p>
+			</div>
+			<div class="pins">
+				<h2>Education</h2>
+				<img src="edimg1.avif">
+				<p>Bangalore University sees surging demand for pure science courses</p>
+			</div>
+			<div class="pins">
+				<h2>Science & Tech</h2>
+				<img src="stimg1.jpg">
+				<p>Astronomers unveil the mysterious dance of binary stripped stars</p>
+			</div>
+			<div class="pins">
+				<h2>Bollywood</h2>
+				<img src="bwimg1.jpg">
+				<p>Dunki vs Salaar Battle Takes The Ugliest Route: Prabhas’ Film Withdraws Release From Two Theater Chains In The South Because Of Shah Rukh Khan!</p>
+			</div>
+			<div class="pins">
+				<h2>Politics</h2>
+				<img src="politicimg.avif">
+				<p>Decode Politics: Why Prashant Kishor met Chandrababu Naidu</p>
+			</div>
+			<div class="pins">
+				<h2>News on Flight</h2>
+				<img src="plane.avif">
+				<p>Plane with 303 Indians grounded over 'human trafficking' freed to leave France, may head to Mumbai today</p>
+			</div>
+			<div class="pins">
+				<h2>World</h2>
+				<!-- <img src="world1.avif">
+				<p>Prince Harry faces yet another brutal snub from the royal family. This time…</p> -->
+			</div>
+
+			<div class="pins">
+				<h2>News</h2>
+				<img src="world1.avif">
+				<p>Prince Harry faces yet another brutal snub from the royal family. This time…</p>
+			</div>
+			<div class="article small">
+				<img src="world2.avif">
+				<div class="articlecontent">
+				<h2>Indian student in US stranded after Lyft driver flees with her luggage on the way to airport: ‘Help me get home’</h2>
+				<p> The driver allegedly took Shreya Verma's passport, VISA, OPT/EAD Card, and electronics, resulting in a loss of $30,000.An Indian student in the US has claimed she was abandoned on a Boston road after a Lyft driver fled with her belongings. Shreya Verma, a student at Harvard University Graduate School of Design, has taken to LinkedIn to narrate her ordeal. The Cambridge resident claimed the cab driver cancelled the ride midway and left with her luggage while she was on her way to Logan International Airport for a flight to India.</p>
+				</div>
+			</div>
+			<div class="pins">
+				<h2>News</h2>
+				<img src="world3.avif">
+				<p>Eat, Pray, Love: India's Christmas Traditions Are Unique, From Kerala To Meghalaya</p>
+			</div>
+
+		</div>
+		<div class="footer">
+			<div class="bottomlinks">
+				<h4>Politics</h4>
+				<ul>
+					<li><a href="#">Congress</a></li>
+					<li><a href="#">Security</a></li>
+					<li><a href="#">The nine</a></li>
+					<li><a href="#">Trumpmerica</a></li>
+					<li><a href="#">State</a></li>
+				</ul>
+			</div>
+			<div class="bottomlinks">
+				<h4>Entertainment</h4>
+				<ul>
+					<li><a href="#">Star</a></li>
+					<li><a href="#">Media</a></li>
+					<li><a href="#">Fashion</a></li>
+					<li><a href="#">Screen</a></li>
+					<li><a href="#">Culture</a></li>
+				</ul>
+			</div>
+			<div class="bottomlinks">
+				<h4>Technology</h4>
+				<ul>
+					<li><a href="#">Startup</a></li>
+					<li><a href="#">Culture</a></li>
+					<li><a href="#">Future</a></li>
+					<li><a href="#">Gadget</a></li>
+					<li><a href="#">Bussiness</a></li>
+				</ul>
+			</div>
+		</div>	
+	</div>
+</body>
+</html>
